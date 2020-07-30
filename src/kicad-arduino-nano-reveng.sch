@@ -1,4 +1,181 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Mini J1
+U 1 1 5F225341
+P 1450 1450
+F 0 "J1" H 1507 1917 50  0000 C CNN
+F 1 "USB_B_Mini" H 1507 1826 50  0000 C CNN
+F 2 "" H 1600 1400 50  0001 C CNN
+F 3 "~" H 1600 1400 50  0001 C CNN
+	1    1450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U1
+U 1 1 5F226888
+P 3250 2400
+F 0 "U1" H 3250 811 50  0000 C CNN
+F 1 "ATmega328P-AU" H 3250 720 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3250 2400 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5F235339
+P 4950 1450
+F 0 "Y?" H 4950 1718 50  0000 C CNN
+F 1 "Crystal" H 4950 1627 50  0000 C CNN
+F 2 "" H 4950 1450 50  0001 C CNN
+F 3 "~" H 4950 1450 50  0001 C CNN
+	1    4950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F23589B
+P 4950 2150
+F 0 "SW?" H 4950 2435 50  0000 C CNN
+F 1 "SW_Push" H 4950 2344 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "~" H 4950 2350 50  0001 C CNN
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F235EA7
+P 4950 2650
+F 0 "R?" V 4743 2650 50  0000 C CNN
+F 1 "R" V 4834 2650 50  0000 C CNN
+F 2 "" V 4880 2650 50  0001 C CNN
+F 3 "~" H 4950 2650 50  0001 C CNN
+	1    4950 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F236336
+P 4950 3050
+F 0 "R?" V 4743 3050 50  0000 C CNN
+F 1 "R" V 4834 3050 50  0000 C CNN
+F 2 "" V 4880 3050 50  0001 C CNN
+F 3 "~" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F2365A2
+P 4950 3450
+F 0 "R?" V 4743 3450 50  0000 C CNN
+F 1 "R" V 4834 3450 50  0000 C CNN
+F 2 "" V 4880 3450 50  0001 C CNN
+F 3 "~" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F2368BC
+P 4950 3800
+F 0 "R?" V 4743 3800 50  0000 C CNN
+F 1 "R" V 4834 3800 50  0000 C CNN
+F 2 "" V 4880 3800 50  0001 C CNN
+F 3 "~" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5F236EF1
+P 5550 2650
+F 0 "D?" H 5543 2395 50  0000 C CNN
+F 1 "LED_ALT" H 5543 2486 50  0000 C CNN
+F 2 "" H 5550 2650 50  0001 C CNN
+F 3 "~" H 5550 2650 50  0001 C CNN
+	1    5550 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5F2374FD
+P 5550 3050
+F 0 "D?" H 5543 2795 50  0000 C CNN
+F 1 "LED_ALT" H 5543 2886 50  0000 C CNN
+F 2 "" H 5550 3050 50  0001 C CNN
+F 3 "~" H 5550 3050 50  0001 C CNN
+	1    5550 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5F237864
+P 5550 3450
+F 0 "D?" H 5543 3195 50  0000 C CNN
+F 1 "LED_ALT" H 5543 3286 50  0000 C CNN
+F 2 "" H 5550 3450 50  0001 C CNN
+F 3 "~" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5F237CB0
+P 5550 3800
+F 0 "D?" H 5543 3545 50  0000 C CNN
+F 1 "LED_ALT" H 5543 3636 50  0000 C CNN
+F 2 "" H 5550 3800 50  0001 C CNN
+F 3 "~" H 5550 3800 50  0001 C CNN
+	1    5550 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J?
+U 1 1 5F238C21
+P 7100 1550
+F 0 "J?" H 7180 1592 50  0000 L CNN
+F 1 "Conn_01x15" H 7180 1501 50  0000 L CNN
+F 2 "" H 7100 1550 50  0001 C CNN
+F 3 "~" H 7100 1550 50  0001 C CNN
+	1    7100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J?
+U 1 1 5F2398BC
+P 7100 3300
+F 0 "J?" H 7180 3342 50  0000 L CNN
+F 1 "Conn_01x15" H 7180 3251 50  0000 L CNN
+F 2 "" H 7100 3300 50  0001 C CNN
+F 3 "~" H 7100 3300 50  0001 C CNN
+	1    7100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5F23AE16
+P 6000 1500
+F 0 "J?" H 6050 1817 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6050 1726 50  0000 C CNN
+F 2 "" H 6000 1500 50  0001 C CNN
+F 3 "~" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
