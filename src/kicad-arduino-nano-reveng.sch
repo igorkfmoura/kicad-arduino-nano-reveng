@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-AU U2
 U 1 1 5F226888
-P 3250 2400
-F 0 "U2" H 2800 900 50  0000 C CNN
-F 1 "ATmega328P-AU" H 2800 800 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3250 2400 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3250 2400 50  0001 C CNN
-	1    3250 2400
+P 3150 2500
+F 0 "U2" H 2700 1000 50  0000 C CNN
+F 1 "ATmega328P-AU" H 2700 900 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3150 2500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3150 2500 50  0001 C CNN
+	1    3150 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -291,43 +291,43 @@ $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5F2B8802
-P 3250 4100
-F 0 "#PWR08" H 3250 3850 50  0001 C CNN
-F 1 "GND" H 3255 3927 50  0000 C CNN
-F 2 "" H 3250 4100 50  0001 C CNN
-F 3 "" H 3250 4100 50  0001 C CNN
-	1    3250 4100
+P 3150 4200
+F 0 "#PWR08" H 3150 3950 50  0001 C CNN
+F 1 "GND" H 3155 4027 50  0000 C CNN
+F 2 "" H 3150 4200 50  0001 C CNN
+F 3 "" H 3150 4200 50  0001 C CNN
+	1    3150 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 4100 3250 3950
+	3150 4200 3150 4050
 Wire Wire Line
-	3250 900  3250 750 
+	3150 1000 3150 850 
 Wire Wire Line
-	3250 750  3200 750 
-Text GLabel 3200 750  0    50   Input ~ 0
+	3150 850  3100 850 
+Text GLabel 3100 850  0    50   Input ~ 0
 +5V
 $Comp
 L power:+5V #PWR07
 U 1 1 5F2C2021
-P 3250 650
-F 0 "#PWR07" H 3250 500 50  0001 C CNN
-F 1 "+5V" H 3265 823 50  0000 C CNN
-F 2 "" H 3250 650 50  0001 C CNN
-F 3 "" H 3250 650 50  0001 C CNN
-	1    3250 650 
+P 3150 750
+F 0 "#PWR07" H 3150 600 50  0001 C CNN
+F 1 "+5V" H 3165 923 50  0000 C CNN
+F 2 "" H 3150 750 50  0001 C CNN
+F 3 "" H 3150 750 50  0001 C CNN
+	1    3150 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 650  3250 750 
-Connection ~ 3250 750 
-Text GLabel 3350 3950 2    50   Input ~ 0
+	3150 750  3150 850 
+Connection ~ 3150 850 
+Text GLabel 3250 4050 2    50   Input ~ 0
 GND
 Wire Wire Line
-	3250 3950 3350 3950
-Connection ~ 3250 3950
+	3150 4050 3250 4050
+Connection ~ 3150 4050
 Wire Wire Line
-	3250 3950 3250 3900
+	3150 4050 3150 4000
 Text GLabel 6850 2700 0    50   Input ~ 0
 GND
 Text GLabel 6850 1150 0    50   Input ~ 0
@@ -506,7 +506,7 @@ Text GLabel 1450 1400 2    50   Input ~ 0
 VUSB
 Text GLabel 6850 4000 0    50   Input ~ 0
 D13
-Text GLabel 3850 1700 2    50   Input ~ 0
+Text GLabel 3750 1800 2    50   Input ~ 0
 D13
 Text GLabel 4600 3800 0    50   Input ~ 0
 D13
@@ -562,23 +562,23 @@ Text GLabel 5900 2150 2    50   Input ~ 0
 GND
 Wire Wire Line
 	5450 2150 5900 2150
-Text GLabel 3850 2700 2    50   Input ~ 0
+Text GLabel 3750 2800 2    50   Input ~ 0
 RST
-Text GLabel 3850 2100 2    50   Input ~ 0
+Text GLabel 3750 2200 2    50   Input ~ 0
 A0
-Text GLabel 3850 2200 2    50   Input ~ 0
+Text GLabel 3750 2300 2    50   Input ~ 0
 A1
-Text GLabel 3850 2300 2    50   Input ~ 0
+Text GLabel 3750 2400 2    50   Input ~ 0
 A2
-Text GLabel 3850 2400 2    50   Input ~ 0
+Text GLabel 3750 2500 2    50   Input ~ 0
 A3
-Text GLabel 3850 2500 2    50   Input ~ 0
+Text GLabel 3750 2600 2    50   Input ~ 0
 A4
-Text GLabel 3850 2600 2    50   Input ~ 0
+Text GLabel 3750 2700 2    50   Input ~ 0
 A5
-Text GLabel 2650 1400 0    50   Input ~ 0
+Text GLabel 2550 1500 0    50   Input ~ 0
 A6
-Text GLabel 2650 1500 0    50   Input ~ 0
+Text GLabel 2550 1600 0    50   Input ~ 0
 A7
 Text GLabel 6850 3700 0    50   Input ~ 0
 A0
@@ -596,7 +596,7 @@ Text GLabel 6850 3100 0    50   Input ~ 0
 A6
 Text GLabel 6850 3000 0    50   Input ~ 0
 A7
-Text GLabel 2650 1200 0    50   Input ~ 0
+Text GLabel 2550 1300 0    50   Input ~ 0
 AREF
 Text GLabel 6850 3800 0    50   Input ~ 0
 AREF
@@ -608,9 +608,9 @@ Text GLabel 4800 1450 0    50   Input ~ 0
 XTAL1
 Text GLabel 5100 1450 2    50   Input ~ 0
 XTAL2
-Text GLabel 3850 1900 2    50   Input ~ 0
+Text GLabel 3750 2000 2    50   Input ~ 0
 XTAL2
-Text GLabel 3850 1800 2    50   Input ~ 0
+Text GLabel 3750 1900 2    50   Input ~ 0
 XTAL1
 Text GLabel 6300 1050 2    50   Input ~ 0
 D12
@@ -620,15 +620,15 @@ Text GLabel 6850 2250 0    50   Input ~ 0
 D12
 Text GLabel 6850 2150 0    50   Input ~ 0
 D11
-Text GLabel 3850 1600 2    50   Input ~ 0
+Text GLabel 3750 1700 2    50   Input ~ 0
 D12
-Text GLabel 3850 1500 2    50   Input ~ 0
+Text GLabel 3750 1600 2    50   Input ~ 0
 D11
-Text GLabel 3850 1400 2    50   Input ~ 0
+Text GLabel 3750 1500 2    50   Input ~ 0
 D10
-Text GLabel 3850 1300 2    50   Input ~ 0
+Text GLabel 3750 1400 2    50   Input ~ 0
 D9
-Text GLabel 3850 1200 2    50   Input ~ 0
+Text GLabel 3750 1300 2    50   Input ~ 0
 D8
 Text GLabel 6850 2050 0    50   Input ~ 0
 D10
@@ -648,21 +648,21 @@ Text GLabel 6850 1350 0    50   Input ~ 0
 D3
 Text GLabel 6850 1250 0    50   Input ~ 0
 D2
-Text GLabel 3850 3600 2    50   Input ~ 0
+Text GLabel 3750 3700 2    50   Input ~ 0
 D7
-Text GLabel 3850 3500 2    50   Input ~ 0
+Text GLabel 3750 3600 2    50   Input ~ 0
 D6
-Text GLabel 3850 3400 2    50   Input ~ 0
+Text GLabel 3750 3500 2    50   Input ~ 0
 D5
-Text GLabel 3850 3300 2    50   Input ~ 0
+Text GLabel 3750 3400 2    50   Input ~ 0
 D4
-Text GLabel 3850 3200 2    50   Input ~ 0
+Text GLabel 3750 3300 2    50   Input ~ 0
 D3
-Text GLabel 3850 3100 2    50   Input ~ 0
+Text GLabel 3750 3200 2    50   Input ~ 0
 D2
-Text GLabel 3850 3000 2    50   Input ~ 0
+Text GLabel 3750 3100 2    50   Input ~ 0
 TX1
-Text GLabel 3850 2900 2    50   Input ~ 0
+Text GLabel 3750 3000 2    50   Input ~ 0
 RX0
 Wire Wire Line
 	3400 4900 3600 4900
@@ -795,9 +795,9 @@ NoConn ~ 4950 5150
 NoConn ~ 4950 5050
 NoConn ~ 4950 4950
 Wire Wire Line
-	3350 900  3350 750 
+	3250 1000 3250 850 
 Wire Wire Line
-	3350 750  3250 750 
+	3250 850  3150 850 
 Text GLabel 4300 4350 0    50   Input ~ 0
 3V3
 NoConn ~ 4150 4750
