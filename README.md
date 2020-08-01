@@ -2,7 +2,7 @@
 
 ## Description
 
-Reverse engineered using manual measurements without consulting official schematics for study only.
+Made on KiCad using manual measurements without consulting official schematics for study only.
 
 You may find the pdf version of the ![schematics](./extra/kicad-arduino-nano-reveng-schematics.pdf) on *./extra* folder.
 
