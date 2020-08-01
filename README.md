@@ -2,9 +2,9 @@
 
 ## Description
 
-Made on KiCad using manual measurements without consulting official schematics for study only.
+Made on KiCad using manual measurements without consulting official schematics for study purposes.
 
-You may find the pdf version of the ![schematics](./extra/kicad-arduino-nano-reveng-schematics.pdf) on *./extra* folder.
+You may find the pdf version of the ![schematics](./extra/kicad-arduino-nano-reveng-schematics.pdf) in *./extra* folder.
 
 ![kicad-arduino-nano-reveng-front](./extra/kicad-arduino-nano-reveng-front.jpg)
 
@@ -13,4 +13,5 @@ You may find the pdf version of the ![schematics](./extra/kicad-arduino-nano-rev
 ## Other sources of good knowledge
 
 http://actrl.cz/blog/index.php/2016/arduino-nano-ch340-schematics-and-details/
+
 https://www.instructables.com/id/Arduino-Nano-ATmega238PCH340G-v30-PCB-layout/
